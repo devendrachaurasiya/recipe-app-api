@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-MAINTAINER  devendrachaurasiya
+MAINTAINER  LONDONAPPDEVELOPER
 ENV PYTHONUNBUFFERED 1
 COPY ./requirnments.txt /requirnments.txt
 RUN pip install -r /requirnments.txt
