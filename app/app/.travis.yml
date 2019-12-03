@@ -1,9 +1,11 @@
-language: python
+language: ruby
 python: 
   - "3.6"
 
 services:
   - docker
+before_install:
+  - gem install rake
 
 before_script: pip install docker-compose
 
